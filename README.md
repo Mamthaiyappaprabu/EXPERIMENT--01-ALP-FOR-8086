@@ -1,9 +1,9 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name : MAMTHA I
+### Name : MAMTHA I
 
-Roll no : 212222230076
+### Roll no : 212222230076
 
-Date of experiment : 
+# EXPERIMENT 01 ALP FOR 8086
+
 
 
 
