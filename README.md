@@ -119,6 +119,56 @@ ret
 
 ![image](https://github.com/Mamthaiyappaprabu/EXPERIMENT--01-ALP-FOR-8086/assets/119393563/0024b9ff-5e0f-49f7-9ebd-2691c0a38c1f)
 
+## Programs for logical  operations
+
+## AND
+```python
+org 100h
+mov bx,1000h;
+and bx,1111h;
+mov [0040h+02],bx;
+ret
+```
+## Output 
+![image](https://github.com/Mamthaiyappaprabu/EXPERIMENT--01-ALP-FOR-8086/assets/119393563/a4eff926-39a2-438a-bf14-05110e2ee24b)
+
+## OR
+```python
+org 100h
+mov ax,[0040h+06];
+mov bx,1000h;
+or ax,bx;
+mov [0040h+02],ax;
+ret
+```
+## Output
+![image](https://github.com/Mamthaiyappaprabu/EXPERIMENT--01-ALP-FOR-8086/assets/119393563/1d4d983f-ec0a-4f8b-a7a3-2a5657c37784)
+
+## NOT
+```python
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+not al;
+mov [0040h+04],ax;
+ret
+```
+## Output
+![image](https://github.com/Mamthaiyappaprabu/EXPERIMENT--01-ALP-FOR-8086/assets/119393563/203ad53e-5d22-4fd9-b067-ff7ab8af6ebc)
+
+## XOR
+```python
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+## Output:
+![image](https://github.com/Mamthaiyappaprabu/EXPERIMENT--01-ALP-FOR-8086/assets/119393563/5e5d89c7-e3bf-423e-9f42-a91c520378e7)
+
+
 
 
 ## Result :
